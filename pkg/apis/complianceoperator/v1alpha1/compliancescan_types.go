@@ -39,6 +39,7 @@ type ComplianceScanSpec struct {
 	Profile      string            `json:"profile,omitempty"`
 	Rule         string            `json:"rule,omitempty"`
 	Content      string            `json:"content,omitempty"`
+	ContentURL   string            `json:"contentUrl,ommitempty"`
 	NodeSelector map[string]string `json:"nodeSelector,omitempty"`
 }
 
